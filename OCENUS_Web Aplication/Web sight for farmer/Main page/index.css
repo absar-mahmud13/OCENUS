@@ -1,0 +1,245 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #eef2f3;
+    color: #333;
+}
+/*
+header {
+    
+    
+    background-color: #4aa3e0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.search-bar {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+
+.search-bar .search-icon {
+    margin-left: -40px;
+    cursor: pointer;
+}
+*/
+/* Add this to style the header with the logo */
+.header-content {
+    display: flex;
+    align-items: center; /* Aligns logo and text vertically */
+    justify-content: flex-start; /* Aligns content to the left */
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+/* Style the logo */
+.logo {
+    
+    border-radius: 50%;
+    height: 100px; /* Adjust the size of the logo */
+    width: auto;  /* Maintain aspect ratio */
+    margin-right: 15px; /* Adds space between the logo and the heading */
+    background-color: hsl(191, 76%, 59%); 
+}
+
+/* Style for the header */
+header {
+    background-color: #4aa3e0;
+    color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Adjust the position of the search bar */
+.search-bar {
+    margin-top: 0; /* Remove the margin to align with the header */
+}
+
+
+/* Dashboard Section */
+a {
+    color: #0066cc; /* Link color */
+    text-decoration: none; /* No underline by default */
+}
+
+.dashboard {
+    padding: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.filter {
+    margin: 20px 0;
+}
+
+.filter select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #24565f;
+}
+
+/* .stat-box {
+   background-color: rgb(230, 228, 107);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    
+    
+}*/
+.stat-box{
+    text-transform: uppercase;
+    width: 200px;
+    height: 250px;
+    padding: 15px 0px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(6, 117, 125);
+    transition: background-color 0.3s ease;
+    
+}
+.icon{
+    padding-top: 25%;
+}
+
+
+
+.stat-box:hover {
+    transform: scale(1.25);
+    background-color:  #580873;
+    
+}
+
+.stat-box .icon {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.stat-box h3 {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+/* Notification Section */
+.notification-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: #eef6f9;
+    margin-top: 20px;
+}
+
+.notification-icon img {
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.notification-text {
+    text-align: center;
+    font-weight: bold;
+    
+    
+    
+    
+    
+}
+
+/*
+.notification-text h3 {
+    background-color: #ce6b0d;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}*/
+
+.notification-text h3  {
+    background-color: #FF4C4C; /* Example: Red for Alerts */
+    color: #FFFFFF;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 15px; /* Adjust this value to increase/decrease the roundness */
+    margin: 20px; /* Optional: Add margin to separate from other elements */
+}
+
+
+.notification-text p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.notification-text .highlight {
+    color: red;
+}
+
+.notification-images img {
+    width: 150px;
+    height: 100px;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
