@@ -1,4 +1,3 @@
-
 # OCENUS - Agriculture Insights Platform
 
 **Powered by NASA’s advanced satellite data, OCENUS provides real-time insights to help farmers make informed decisions, enhancing sustainable farming, irrigation practices, and food security.**
